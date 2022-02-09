@@ -39,7 +39,9 @@ public class Solutions {
     }
 
     /* Problem 912. #Sort an Array# #MEDIUM#
-     * Given an array of integers nums, sort the array in ascending order.
+     * https://leetcode.com/problems/sort-an-array/
+     *  Problem description:
+     *  Given an array of integers nums, sort the array in ascending order.
      */
     public static int[] sortArray(int[] nums) {
         mergeSort(nums, 0, nums.length - 1);
